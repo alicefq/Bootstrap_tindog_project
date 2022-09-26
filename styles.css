@@ -1,0 +1,12 @@
+#title {
+    background-color: #ff4c68;
+}
+.rowtitle {
+    margin-top: 3rem;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
