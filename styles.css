@@ -1,37 +1,25 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+}
+p {
+    color: #8F8F8F;
 }
 
-/* Title styles */
+/* ------------------- */
+/* Headings styles */
+/* ------------------- */
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-.rowtitle {
-    margin-top: 3rem;
-}
-h1 {
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     line-height: 1.5;
     font-size: 3.5rem;
 }
-h2 {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-    }
-h3 {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-p {
-    color: #8F8F8F;
-}
+
 .container-fluid {
     padding: 3% 15% 10%;
 }
@@ -39,7 +27,9 @@ p {
     padding-top: 6rem;
 }
 
+/* ------------------- */
 /* Nav bar styles */
+/* ------------------- */
 
 .navbar {
     /* padding: 3% 15% 2rem 15%; */
@@ -59,13 +49,31 @@ p {
 
 }
 
+/* ------------------- */
+/* Title styles */
+/* ------------------- */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.rowtitle {
+    margin-top: 3rem;
+}
+
+/* ------------------- */
 /* Download buttons */
+/* ------------------- */
 
 .download-btn {
     margin: 5% 3% 5% 0;
 }
 
+/* ------------------- */
 /* Title image */
+/* ------------------- */
 
 .title-image {
     width: 20rem;
@@ -75,8 +83,9 @@ p {
     right: 24%
 }
 
-
+/* ------------------- */
 /* Features section */
+/* ------------------- */
 
 #features {
     padding: 7% 15%;
@@ -84,7 +93,6 @@ p {
     position: relative;
 }
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 .icon {
@@ -94,11 +102,17 @@ p {
 .icon:hover {
     color: #ff4c68;
 }
+.features-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
+/* ------------------- */
 /* Testimonials */
+/* ------------------- */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #ffff;
 }
@@ -110,12 +124,18 @@ p {
 .carousel-item {
     padding: 7% 15%;
 }
+.carousel-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
+/* ------------------- */
 /* Press section */
+/* ------------------- */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-logo {
@@ -123,20 +143,32 @@ p {
     margin: 20px 20px 50px;
 }
 
-/* Pricing */
+/* ------------------- */
+/* Pricing inc. cards */
+/* ------------------- */
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 .pricing-column {
     padding: 3% 2%;
 }
+.price-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.dog-name-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
+/* ------------------- */
 /* Call to Action */
+/* ------------------- */
 
 #cta {
-    text-align: center;
     background-color: #ff4c68;
     color: #ffff;
     padding: 7% 15%;
@@ -148,7 +180,10 @@ p {
     line-height: 1.5;
 }
 
+/* ------------------- */
 /* Footer section*/
+/* ------------------- */
+
 #footer {
     background-color: #ffff;
     text-align: center;
@@ -163,7 +198,9 @@ p {
     padding-top: 2rem;
 }
 
+/* ------------------- */
 /* Media queries */
+/* ------------------- */
 
 @media (max-width: 1250px) {
     .title-image {
