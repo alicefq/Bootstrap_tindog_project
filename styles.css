@@ -26,6 +26,16 @@ p {
 .titleimage {
     padding-top: 6rem;
 }
+/* ------------------- */
+/* Sections styles*/
+/* ------------------- */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+    background-color: #ffff;
+}
 
 /* ------------------- */
 /* Nav bar styles */
@@ -54,8 +64,6 @@ p {
 /* ------------------- */
 
 #title {
-    background-color: #ff4c68;
-    color: white;
     text-align: left;
 }
 
@@ -89,7 +97,6 @@ p {
 
 #features {
     padding: 7% 15%;
-    background-color: #ffff;
     position: relative;
 }
 .feature-box {
@@ -114,7 +121,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #ffff;
 }
 .testimonial-image {
     width: 10%;
@@ -169,15 +175,7 @@ p {
 /* ------------------- */
 
 #cta {
-    background-color: #ff4c68;
-    color: #ffff;
     padding: 7% 15%;
-}
-.cta-heading {
-    font-size: 3.5rem;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    line-height: 1.5;
 }
 
 /* ------------------- */
@@ -185,7 +183,6 @@ p {
 /* ------------------- */
 
 #footer {
-    background-color: #ffff;
     text-align: center;
     padding: 7% 15%;
 }
